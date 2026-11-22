@@ -1,8 +1,8 @@
 cm = int(input("Enter centimeters: "))
 km = cm // 100000
-remaining_cm = cm % 100000
-m = remaining_cm // 100
-remaining_cm = remaining_cm % 100
+remainingcm = cm % 100000
+m = remainingcm // 100
+remainingcm = remainingcm % 100
 print("Kilometers:", km)
 print("Meters:", m)
-print("Remaining Centimeters:", remaining_cm)
+print("Remaining Centimeters:", remainingcm)
